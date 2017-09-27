@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Requests" representedClassName=".Requests" syncable="YES">
+        <attribute name="dateOfRequest" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="requestParameters" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="responds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RespondsForRequest" inverseName="request" inverseEntity="RespondsForRequest" syncable="YES"/>
+    </entity>
+    <entity name="RespondsForRequest" representedClassName=".RespondsForRequest" syncable="YES">
+        <attribute name="centerLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="centerLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="formattedAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="northEastLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="northEastLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="responseNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="southWestLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="southWestLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="request" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Requests" inverseName="responds" inverseEntity="Requests" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Requests" positionX="351" positionY="36" width="128" height="90"/>
+        <element name="RespondsForRequest" positionX="18" positionY="63" width="128" height="193"/>
+    </elements>
 </model>

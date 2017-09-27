@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848A91931F27A6C30087BF8B /* WHEGoogleRequestsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A91921F27A6C30087BF8B /* WHEGoogleRequestsHandler.swift */; };
+		84912F621F1543E700B14FD0 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84912F611F1543E700B14FD0 /* CoreDataHelper.swift */; };
+		84912F881F15531C00B14FD0 /* Whesit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84912F861F15531B00B14FD0 /* Whesit.xcdatamodeld */; };
+		84912F991F1557DF00B14FD0 /* Requests+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84912F951F1557DF00B14FD0 /* Requests+CoreDataClass.swift */; };
+		84912F9A1F1557DF00B14FD0 /* Requests+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84912F961F1557DF00B14FD0 /* Requests+CoreDataProperties.swift */; };
+		84912F9B1F1557DF00B14FD0 /* RespondsForRequest+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84912F971F1557DF00B14FD0 /* RespondsForRequest+CoreDataClass.swift */; };
+		84912F9C1F1557DF00B14FD0 /* RespondsForRequest+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84912F981F1557DF00B14FD0 /* RespondsForRequest+CoreDataProperties.swift */; };
+		8499816A1F167E3700FD5EC0 /* WHECollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849981691F167E3700FD5EC0 /* WHECollectionViewCell.swift */; };
+		8499816C1F167EB000FD5EC0 /* WHEDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499816B1F167EB000FD5EC0 /* WHEDetailedViewController.swift */; };
+		8499816E1F16809A00FD5EC0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8499816D1F16809A00FD5EC0 /* MapKit.framework */; };
 		849DB9C61F12A1E100A38A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DB9C51F12A1E100A38A3C /* AppDelegate.swift */; };
-		849DB9C81F12A1E100A38A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DB9C71F12A1E100A38A3C /* ViewController.swift */; };
 		849DB9CB1F12A1E100A38A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849DB9C91F12A1E100A38A3C /* Main.storyboard */; };
-		849DB9CE1F12A1E100A38A3C /* Whesit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849DB9CC1F12A1E100A38A3C /* Whesit.xcdatamodeld */; };
 		849DB9D01F12A1E100A38A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849DB9CF1F12A1E100A38A3C /* Assets.xcassets */; };
 		849DB9D31F12A1E100A38A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849DB9D11F12A1E100A38A3C /* LaunchScreen.storyboard */; };
 		849DB9DE1F12A1E200A38A3C /* WhesitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DB9DD1F12A1E200A38A3C /* WhesitTests.swift */; };
 		849DB9E91F12A1E200A38A3C /* WhesitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849DB9E81F12A1E200A38A3C /* WhesitUITests.swift */; };
+		84B6A3A01F13F2FF008CEF42 /* WHEMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6A39F1F13F2FF008CEF42 /* WHEMainViewController.swift */; };
+		84BF3D991F3F7B2F00B8A4D2 /* WHECollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF3D981F3F7B2F00B8A4D2 /* WHECollectionReusableView.swift */; };
+		84D1999C1F26676B0033A290 /* WHEPopoverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1999B1F26676B0033A290 /* WHEPopoverMapViewController.swift */; };
+		B00470477B181EE3F7261697 /* Pods_WhesitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F464C11B84F2221496114C04 /* Pods_WhesitTests.framework */; };
+		C70D14E944A466BAFDAE8128 /* Pods_Whesit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA723B4831B9B9B346363E9 /* Pods_Whesit.framework */; };
+		D3D70775698FC2F46A479643 /* Pods_WhesitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5F41D9FCEA852F861FEF7B /* Pods_WhesitUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +49,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1057A77517EA64DB2836E5F0 /* Pods-WhesitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhesitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhesitTests/Pods-WhesitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D49C0EED8FEA5D3C9FDF8E1 /* Pods-WhesitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhesitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhesitUITests/Pods-WhesitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		284F117FC15874C1DC2F6656 /* Pods-WhesitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhesitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhesitUITests/Pods-WhesitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AA723B4831B9B9B346363E9 /* Pods_Whesit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whesit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F41D9FCEA852F861FEF7B /* Pods_WhesitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhesitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD07A9655618E0999C7421A /* Pods-Whesit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whesit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whesit/Pods-Whesit.debug.xcconfig"; sourceTree = "<group>"; };
+		6A3F1F67DB538D12B2F9A798 /* Pods-WhesitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhesitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhesitTests/Pods-WhesitTests.release.xcconfig"; sourceTree = "<group>"; };
+		848A91921F27A6C30087BF8B /* WHEGoogleRequestsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHEGoogleRequestsHandler.swift; sourceTree = "<group>"; };
+		84912F611F1543E700B14FD0 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		84912F871F15531B00B14FD0 /* Whesit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Whesit.xcdatamodel; sourceTree = "<group>"; };
+		84912F951F1557DF00B14FD0 /* Requests+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Requests+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84912F961F1557DF00B14FD0 /* Requests+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Requests+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84912F971F1557DF00B14FD0 /* RespondsForRequest+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RespondsForRequest+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84912F981F1557DF00B14FD0 /* RespondsForRequest+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RespondsForRequest+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		849981691F167E3700FD5EC0 /* WHECollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHECollectionViewCell.swift; sourceTree = "<group>"; };
+		8499816B1F167EB000FD5EC0 /* WHEDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHEDetailedViewController.swift; sourceTree = "<group>"; };
+		8499816D1F16809A00FD5EC0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		849DB9C21F12A1E100A38A3C /* Whesit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whesit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849DB9C51F12A1E100A38A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		849DB9C71F12A1E100A38A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		849DB9CA1F12A1E100A38A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		849DB9CD1F12A1E100A38A3C /* Whesit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Whesit.xcdatamodel; sourceTree = "<group>"; };
 		849DB9CF1F12A1E100A38A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849DB9D21F12A1E100A38A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849DB9D41F12A1E100A38A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +78,11 @@
 		849DB9E41F12A1E200A38A3C /* WhesitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhesitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849DB9E81F12A1E200A38A3C /* WhesitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhesitUITests.swift; sourceTree = "<group>"; };
 		849DB9EA1F12A1E200A38A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B6A39F1F13F2FF008CEF42 /* WHEMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHEMainViewController.swift; sourceTree = "<group>"; };
+		84BF3D981F3F7B2F00B8A4D2 /* WHECollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHECollectionReusableView.swift; sourceTree = "<group>"; };
+		84D1999B1F26676B0033A290 /* WHEPopoverMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHEPopoverMapViewController.swift; sourceTree = "<group>"; };
+		E24C60C65624EBA8D81658C7 /* Pods-Whesit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whesit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whesit/Pods-Whesit.release.xcconfig"; sourceTree = "<group>"; };
+		F464C11B84F2221496114C04 /* Pods_WhesitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhesitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8499816E1F16809A00FD5EC0 /* MapKit.framework in Frameworks */,
+				C70D14E944A466BAFDAE8128 /* Pods_Whesit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00470477B181EE3F7261697 /* Pods_WhesitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +107,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D70775698FC2F46A479643 /* Pods_WhesitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28E17550BE9DEF4B5FFB9838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8499816D1F16809A00FD5EC0 /* MapKit.framework */,
+				2AA723B4831B9B9B346363E9 /* Pods_Whesit.framework */,
+				F464C11B84F2221496114C04 /* Pods_WhesitTests.framework */,
+				3C5F41D9FCEA852F861FEF7B /* Pods_WhesitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		694635142DBBF1E293D6CB41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CD07A9655618E0999C7421A /* Pods-Whesit.debug.xcconfig */,
+				E24C60C65624EBA8D81658C7 /* Pods-Whesit.release.xcconfig */,
+				1057A77517EA64DB2836E5F0 /* Pods-WhesitTests.debug.xcconfig */,
+				6A3F1F67DB538D12B2F9A798 /* Pods-WhesitTests.release.xcconfig */,
+				1D49C0EED8FEA5D3C9FDF8E1 /* Pods-WhesitUITests.debug.xcconfig */,
+				284F117FC15874C1DC2F6656 /* Pods-WhesitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84912F601F15428D00B14FD0 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				84912F951F1557DF00B14FD0 /* Requests+CoreDataClass.swift */,
+				84912F961F1557DF00B14FD0 /* Requests+CoreDataProperties.swift */,
+				84912F971F1557DF00B14FD0 /* RespondsForRequest+CoreDataClass.swift */,
+				84912F981F1557DF00B14FD0 /* RespondsForRequest+CoreDataProperties.swift */,
+				84912F611F1543E700B14FD0 /* CoreDataHelper.swift */,
+				84912F861F15531B00B14FD0 /* Whesit.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 		849DB9B91F12A1E100A38A3C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +158,8 @@
 				849DB9DC1F12A1E200A38A3C /* WhesitTests */,
 				849DB9E71F12A1E200A38A3C /* WhesitUITests */,
 				849DB9C31F12A1E100A38A3C /* Products */,
+				694635142DBBF1E293D6CB41 /* Pods */,
+				28E17550BE9DEF4B5FFB9838 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +176,18 @@
 		849DB9C41F12A1E100A38A3C /* Whesit */ = {
 			isa = PBXGroup;
 			children = (
-				849DB9C51F12A1E100A38A3C /* AppDelegate.swift */,
-				849DB9C71F12A1E100A38A3C /* ViewController.swift */,
-				849DB9C91F12A1E100A38A3C /* Main.storyboard */,
+				84912F601F15428D00B14FD0 /* Core Data */,
 				849DB9CF1F12A1E100A38A3C /* Assets.xcassets */,
-				849DB9D11F12A1E100A38A3C /* LaunchScreen.storyboard */,
 				849DB9D41F12A1E100A38A3C /* Info.plist */,
-				849DB9CC1F12A1E100A38A3C /* Whesit.xcdatamodeld */,
+				849DB9D11F12A1E100A38A3C /* LaunchScreen.storyboard */,
+				849DB9C91F12A1E100A38A3C /* Main.storyboard */,
+				848A91921F27A6C30087BF8B /* WHEGoogleRequestsHandler.swift */,
+				849DB9C51F12A1E100A38A3C /* AppDelegate.swift */,
+				84B6A39F1F13F2FF008CEF42 /* WHEMainViewController.swift */,
+				8499816B1F167EB000FD5EC0 /* WHEDetailedViewController.swift */,
+				84D1999B1F26676B0033A290 /* WHEPopoverMapViewController.swift */,
+				849981691F167E3700FD5EC0 /* WHECollectionViewCell.swift */,
+				84BF3D981F3F7B2F00B8A4D2 /* WHECollectionReusableView.swift */,
 			);
 			path = Whesit;
 			sourceTree = "<group>";
@@ -135,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849DB9ED1F12A1E200A38A3C /* Build configuration list for PBXNativeTarget "Whesit" */;
 			buildPhases = (
+				9C17716A52A037B4EBAB7EE5 /* [CP] Check Pods Manifest.lock */,
 				849DB9BE1F12A1E100A38A3C /* Sources */,
 				849DB9BF1F12A1E100A38A3C /* Frameworks */,
 				849DB9C01F12A1E100A38A3C /* Resources */,
+				185AE8E839F6BB563A06A4FF /* [CP] Embed Pods Frameworks */,
+				9A3830E6529D3C51EE0EA9C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849DB9F01F12A1E200A38A3C /* Build configuration list for PBXNativeTarget "WhesitTests" */;
 			buildPhases = (
+				8A1D52892ADE13956266F0AD /* [CP] Check Pods Manifest.lock */,
 				849DB9D51F12A1E200A38A3C /* Sources */,
 				849DB9D61F12A1E200A38A3C /* Frameworks */,
 				849DB9D71F12A1E200A38A3C /* Resources */,
+				729EC00AD40ADB8119A3A1BC /* [CP] Embed Pods Frameworks */,
+				D25E94FA47D7A7407ED400D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849DB9F31F12A1E200A38A3C /* Build configuration list for PBXNativeTarget "WhesitUITests" */;
 			buildPhases = (
+				9122172BBEDC35E42D46775A /* [CP] Check Pods Manifest.lock */,
 				849DB9E01F12A1E200A38A3C /* Sources */,
 				849DB9E11F12A1E200A38A3C /* Frameworks */,
 				849DB9E21F12A1E200A38A3C /* Resources */,
+				C65C9CFAEB38B8C1D3822133 /* [CP] Embed Pods Frameworks */,
+				42A13062EA863DB17F297CB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +351,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		185AE8E839F6BB563A06A4FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whesit/Pods-Whesit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42A13062EA863DB17F297CB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhesitUITests/Pods-WhesitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729EC00AD40ADB8119A3A1BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhesitTests/Pods-WhesitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1D52892ADE13956266F0AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9122172BBEDC35E42D46775A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3830E6529D3C51EE0EA9C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whesit/Pods-Whesit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C17716A52A037B4EBAB7EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C65C9CFAEB38B8C1D3822133 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhesitUITests/Pods-WhesitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25E94FA47D7A7407ED400D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhesitTests/Pods-WhesitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		849DB9BE1F12A1E100A38A3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849DB9CE1F12A1E100A38A3C /* Whesit.xcdatamodeld in Sources */,
-				849DB9C81F12A1E100A38A3C /* ViewController.swift in Sources */,
+				84D1999C1F26676B0033A290 /* WHEPopoverMapViewController.swift in Sources */,
+				84912F621F1543E700B14FD0 /* CoreDataHelper.swift in Sources */,
+				84912F991F1557DF00B14FD0 /* Requests+CoreDataClass.swift in Sources */,
+				84912F9A1F1557DF00B14FD0 /* Requests+CoreDataProperties.swift in Sources */,
+				8499816A1F167E3700FD5EC0 /* WHECollectionViewCell.swift in Sources */,
+				84912F9B1F1557DF00B14FD0 /* RespondsForRequest+CoreDataClass.swift in Sources */,
+				84BF3D991F3F7B2F00B8A4D2 /* WHECollectionReusableView.swift in Sources */,
+				84B6A3A01F13F2FF008CEF42 /* WHEMainViewController.swift in Sources */,
+				84912F881F15531C00B14FD0 /* Whesit.xcdatamodeld in Sources */,
 				849DB9C61F12A1E100A38A3C /* AppDelegate.swift in Sources */,
+				848A91931F27A6C30087BF8B /* WHEGoogleRequestsHandler.swift in Sources */,
+				84912F9C1F1557DF00B14FD0 /* RespondsForRequest+CoreDataProperties.swift in Sources */,
+				8499816C1F167EB000FD5EC0 /* WHEDetailedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -406,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -417,10 +656,12 @@
 		};
 		849DB9EE1F12A1E200A38A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD07A9655618E0999C7421A /* Pods-Whesit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T65LJ52QK7;
 				INFOPLIST_FILE = Whesit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.sergeyartemyev.Whesit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +671,12 @@
 		};
 		849DB9EF1F12A1E200A38A3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24C60C65624EBA8D81658C7 /* Pods-Whesit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T65LJ52QK7;
 				INFOPLIST_FILE = Whesit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.sergeyartemyev.Whesit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +686,7 @@
 		};
 		849DB9F11F12A1E200A38A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1057A77517EA64DB2836E5F0 /* Pods-WhesitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +702,7 @@
 		};
 		849DB9F21F12A1E200A38A3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3F1F67DB538D12B2F9A798 /* Pods-WhesitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +718,7 @@
 		};
 		849DB9F41F12A1E200A38A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D49C0EED8FEA5D3C9FDF8E1 /* Pods-WhesitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = T65LJ52QK7;
@@ -487,6 +733,7 @@
 		};
 		849DB9F51F12A1E200A38A3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284F117FC15874C1DC2F6656 /* Pods-WhesitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = T65LJ52QK7;
@@ -518,6 +765,7 @@
 				849DB9EF1F12A1E200A38A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849DB9F01F12A1E200A38A3C /* Build configuration list for PBXNativeTarget "WhesitTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +774,7 @@
 				849DB9F21F12A1E200A38A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849DB9F31F12A1E200A38A3C /* Build configuration list for PBXNativeTarget "WhesitUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,16 +783,17 @@
 				849DB9F51F12A1E200A38A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		849DB9CC1F12A1E100A38A3C /* Whesit.xcdatamodeld */ = {
+		84912F861F15531B00B14FD0 /* Whesit.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				849DB9CD1F12A1E100A38A3C /* Whesit.xcdatamodel */,
+				84912F871F15531B00B14FD0 /* Whesit.xcdatamodel */,
 			);
-			currentVersion = 849DB9CD1F12A1E100A38A3C /* Whesit.xcdatamodel */;
+			currentVersion = 84912F871F15531B00B14FD0 /* Whesit.xcdatamodel */;
 			path = Whesit.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

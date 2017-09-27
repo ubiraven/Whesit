@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,15 +19,67 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="hcH-t3-ASf">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem id="tat-Iv-4uA">
+                                        <nil key="title"/>
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="search" id="FdG-pv-UMw"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <searchBar contentMode="redraw" text="Paris" translatesAutoresizingMaskIntoConstraints="NO" id="MCP-Fq-2kx">
+                                <rect key="frame" x="0.0" y="20" width="331" height="44"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashImage" translatesAutoresizingMaskIntoConstraints="NO" id="n01-gO-elk">
+                                <rect key="frame" x="26" y="104" width="323" height="323"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="420" id="Q2j-dK-W8w"/>
+                                    <constraint firstAttribute="width" secondItem="n01-gO-elk" secondAttribute="height" multiplier="1:1" id="Uuu-1W-FTX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paris" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7k0-aU-XRr">
+                                <rect key="frame" x="0.0" y="66" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Hgy-oZ-pIL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MCP-Fq-2kx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="27b-XY-CN7"/>
+                            <constraint firstItem="n01-gO-elk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="90E-Xh-4Wv"/>
+                            <constraint firstAttribute="trailing" secondItem="7k0-aU-XRr" secondAttribute="trailing" id="Ans-xQ-w0o"/>
+                            <constraint firstItem="7k0-aU-XRr" firstAttribute="top" secondItem="hcH-t3-ASf" secondAttribute="bottom" constant="2" id="LSX-22-O7v"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="n01-gO-elk" secondAttribute="trailing" constant="10" id="LXb-WH-SNO"/>
+                            <constraint firstItem="MCP-Fq-2kx" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="WBj-7f-Ueq"/>
+                            <constraint firstAttribute="trailing" secondItem="MCP-Fq-2kx" secondAttribute="trailing" constant="44" id="Xqn-uP-FQH"/>
+                            <constraint firstItem="hcH-t3-ASf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="YMV-YX-GRP"/>
+                            <constraint firstItem="n01-gO-elk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="10" id="c81-xG-Gfv"/>
+                            <constraint firstItem="n01-gO-elk" firstAttribute="top" secondItem="hcH-t3-ASf" secondAttribute="bottom" constant="40" id="lAi-4l-raY"/>
+                            <constraint firstItem="7k0-aU-XRr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="rBD-v9-f9K"/>
+                            <constraint firstAttribute="trailing" secondItem="hcH-t3-ASf" secondAttribute="trailing" id="zf0-rj-D5p"/>
+                            <constraint firstItem="hcH-t3-ASf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="zzb-Ku-pOa"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="splashImage" width="640" height="640"/>
+    </resources>
 </document>
