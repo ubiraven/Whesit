@@ -1,0 +1,6 @@
+framework module Pods_WhesitUITests {
+  umbrella header "Pods-WhesitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
